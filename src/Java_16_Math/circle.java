@@ -1,4 +1,4 @@
-package Java_16;
+package Java_16_Math;
 import java.util.Scanner;
 
 public class circle {

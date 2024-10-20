@@ -2,20 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Java_19;
-
-import java.util.Scanner;
+package Java_22_for;
 
 /**
  *
  * @author Admin
  */
-public class bt_Kiem_Tra_Thu {
+public class bang_Cuu_Chuong {
     public static void main(String[] args) {
-        Scanner s = new Scanner (System.in);
-        int n;
-        System.out.println("Nhap n: ");
-        n = s.nextInt();
-        
+        for (int i=1; i<=9; i++) {
+            for (int j=1; j<=9; j++) {
+                System.out.print(j + " x " + i + " = " + i*j + "\t");
+            }
+            System.out.println();
+        }
     }
 }
